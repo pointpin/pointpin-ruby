@@ -20,15 +20,11 @@ module Pointpin
         return Hashie::Mash.new(MultiJson.load(pointpin_response.body))
       end
     end
-
-    # Build or get an HTTP connection object.
+    
     def connection
       @connection ||= Faraday.new
     end
-
-    # Set an HTTP connection object.
-    #
-    # @param connection Connection object to be used.
+    
     def connection=(connection)
       @connection = connection
     end
