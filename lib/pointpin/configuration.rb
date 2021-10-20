@@ -1,7 +1,7 @@
 module Pointpin
   module Configuration
     # Default API endpoint
-    DEFAULT_API_ENDPOINT = 'http://geo.pointp.in'
+    DEFAULT_API_ENDPOINT = 'https://geo.pointp.in'
 
     # Pointpin API endpoint
     attr_writer :api_endpoint
@@ -11,7 +11,7 @@ module Pointpin
 
     # Default parameters
     attr_accessor :default_params
-    
+
     def configure
       yield self
     end

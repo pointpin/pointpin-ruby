@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://geo.pointp.in/this-is-a-valid-api-key/json/55.111.555.555
+    uri: https://geo.pointp.in/this-is-a-valid-api-key/json/55.111.555.555
     body:
       encoding: US-ASCII
       string: ''
@@ -38,6 +38,6 @@ http_interactions:
         City","city_name":"Dublin","postcode":null,"latitude":53.3331,"longitude":-6.2489,"time_zone":"Europe/Dublin"}'
     http_version: '1.1'
     adapter_metadata:
-      effective_url: http://geo.pointp.in/this-is-a-valid-api-key/json/55.111.555.555
+      effective_url: https://geo.pointp.in/this-is-a-valid-api-key/json/55.111.555.555
   recorded_at: Wed, 16 Jul 2014 08:42:12 GMT
 recorded_with: VCR 2.9.2

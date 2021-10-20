@@ -38,7 +38,7 @@ describe Pointpin do
 
         it "sends a standard request" do
           faraday.should_receive(:get).with(
-            'http://geo.pointp.in/api-key/json/1.2.3.4', {}
+            'https://geo.pointp.in/api-key/json/1.2.3.4', {}
           ).and_return(response)
 
           Pointpin.locate('1.2.3.4')
