@@ -11,7 +11,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/pointpin/pointpin-ruby"
   spec.summary       = %q{Pointp.in API wrapper in Ruby}
   spec.description   = %q{Pointp.in API wrapper in Ruby}
-  spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
