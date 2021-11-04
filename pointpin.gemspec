@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Pointpin::VERSION
   spec.authors       = ["Brian Flanagan"]
   spec.email         = ["brian@coralmade.com"]
-  spec.homepage      = "https://github.com/coralmade/pointpin-ruby"
+  spec.homepage      = "https://github.com/pointpin/pointpin-ruby"
   spec.summary       = %q{Pointp.in API wrapper in Ruby}
-  spec.description   = %q{Pointp.in API wrapper in Rub}
+  spec.description   = %q{Pointp.in API wrapper in Ruby}
   spec.homepage      = ""
   spec.license       = "MIT"
 
